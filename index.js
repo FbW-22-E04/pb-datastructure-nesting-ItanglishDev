@@ -9,3 +9,19 @@ let board = [
 
 console.log("here", Object.values(board));
 
+// Ex 2
+
+const doggo = {
+  name: "Mina",
+  breed: "wolf",
+  favFoods: ["bone", "biscuit", "meat"]
+}
+
+console.log(doggo.favFoods[1]);
+
+
+
+const printFavFood = doggo.favFoods
+console.log(printFavFood);
+
+
