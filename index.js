@@ -24,4 +24,19 @@ console.log(doggo.favFoods[1]);
 const printFavFood = doggo.favFoods
 console.log(printFavFood);
 
+// Ex 3
 
+const recipes = {
+  ingredients: {
+    butter: "stringOne",
+    sugar: "stringTwo",
+    flour: "stringThree"
+  }
+}
+
+recipes.ingredients.ginger = ""
+recipes.ingredients.sugar = "brown sugar"
+console.log(recipes);
+
+console.log();
+console.log(Object.values(recipes.ingredients));
